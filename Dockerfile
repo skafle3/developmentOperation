@@ -1,1 +1,5 @@
-RUN echo 'we are running some # of cool things'
+FROM alpine:3.14
+
+CMD ["echo", "Hello, world!"]
+
+
